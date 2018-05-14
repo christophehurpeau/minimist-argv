@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "shortcut for require('minimist')(process.argv.slice(2))",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": "christophehurpeau/minimist-argv",
   "keywords": [
     "minimist",
@@ -15,6 +16,7 @@
   },
   "homepage": "https://github.com/christophehurpeau/minimist-argv#readme",
   "dependencies": {
+    "@types/minimist": "^1.2.0",
     "minimist": "^1.2.0"
   }
 }
